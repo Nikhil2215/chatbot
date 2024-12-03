@@ -10,6 +10,9 @@ import {
   Keyboard,
 } from 'react-native';
 
+const OPEN_API_KEY =
+  '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';
+
 const ChatbotOpenAI = () => {
   const [msg, setMsg] = useState('');
   const [messages, setMessages] = useState([]);

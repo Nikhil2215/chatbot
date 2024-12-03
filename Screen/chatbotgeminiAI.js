@@ -10,6 +10,8 @@ import {
   Keyboard,
 } from 'react-native';
 
+const GEMINI_API_KEY = 'AIzaSyDhvXVPRYo0_L5ofK3gFJsv2FuwfpdqHVQ';
+
 const ChatbotGeminiAI = () => {
   const [msg, setMsg] = useState('');
   const [messages, setMessages] = useState([]);
